@@ -14,3 +14,7 @@ body {
   --color-darkTitle2: #B7AAFF;
 
 }
+
+html{
+  scroll-behavior: smooth;
+}
