@@ -7,7 +7,7 @@ import { fetchContent } from "../services/contentService";
 export const Context = createContext();
 
 const ContextProvider = ({children})=>{
-    const [isDark,setIsDark] =useLocalStorage("IsDark",false);
+    const [isDark,setIsDark] =useLocalStorage("IsDark",true);
     const [language, setLanguage] = useLocalStorage("lang", "en");
 
     //gelen datayı tutmak ve bekleme durumu için content ve loading  state i oluşturuyoruz 
