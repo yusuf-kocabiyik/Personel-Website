@@ -31,29 +31,29 @@
     "skills":[
       {"skillName":"Java Script",
       "id":"1",
-      "description":"JavaScript, web uygulamalarının etkileşimli ve dinamik hale gelmesini sağlayan temel programlama dilidir.Projelerimde JavaScript’i; kullanıcı etkileşimlerini yönetmek, DOM manipülasyonu yapmak, API’lerle veri alışverişi sağlamak ve modern ES6+ özellikleriyle temiz, okunabilir kodlar yazmak için kullandım.Asenkron programlama, event handling ve state yönetimi konularında aktif deneyime sahibim."
+      "description":"JavaScript, interaktif web uygulamaları geliştirmek için kullandığım temel dildir. DOM manipülasyonu, API entegrasyonu ve kullanıcı etkileşimlerini modern ES6+ özellikleriyle yönetirim."
       },
       {
         "skillName":"React.js",
         "id":"2",
-        "description":"React, modern ve ölçeklenebilir kullanıcı arayüzleri geliştirmek için kullandığım güçlü bir JavaScript kütüphanesidir.Fonksiyonel bileşenler, hooks ve component tabanlı mimari ile yeniden kullanılabilir ve sürdürülebilir arayüzler oluşturdum.Projelerimde React Router ile sayfa yönlendirme, Context API veya state yönetim çözümleriyle veri akışı kontrolü sağladım."
+        "description":"React ile modern ve ölçeklenebilir kullanıcı arayüzleri geliştiriyorum. Fonksiyonel componentler ve hook’lar kullanarak yeniden kullanılabilir yapılar oluştururum. React Router ile routing, Context API ve Redux ile state yönetimi uyguladım."
       },
       {"skillName":"Java",
       "id":"3",
-      "description":"Java, ölçeklenebilir ve güvenilir backend uygulamaları geliştirmek için kullandığım güçlü ve nesne yönelimli bir programlama dilidir. OOP prensipleriyle temiz ve sürdürülebilir kod yapıları oluşturarak RESTful servisler ve veri tabanı entegrasyonları geliştirdim. Spring Boot ile hızlı ve modüler backend servisleri tasarlayarak katmanlı mimari yapılar üzerinde çalışıyorum."
+      "description":"Java ve Spring Boot ile ölçeklenebilir backend uygulamaları geliştiriyorum. Nesne yönelimli prensipleri kullanarak temiz kod yapıları oluşturur, RESTful servisler geliştirir ve katmanlı mimari ile veritabanı entegrasyonu sağlarım."
       },
         {
         "skillName":"Node.js",
         "id":"4",
-        "description":"Node.js, JavaScript’i sunucu tarafında kullanarak hızlı ve ölçeklenebilir backend uygulamaları geliştirmeyi sağlar.Node.js ile RESTful API’ler oluşturma, veritabanı bağlantıları kurma ve istemci–sunucu arasındaki veri akışını yönetme üzerine çalışmalar yaptım.Asenkron yapı sayesinde performanslı ve verimli sistemler geliştirmeye odaklandım."
+        "description":"Node.js ile hızlı ve ölçeklenebilir sunucu taraflı uygulamalar geliştiriyorum. RESTful API oluşturma, client-server veri akışı yönetimi ve asenkron programlama konularında deneyim sahibiyim."
       },
       {"skillName":"C",
       "id":"5",
-      "description":"C programlama dili ile üniversite eğitimim boyunca aktif olarak çalıştım ve temel programlama altyapımı bu dil ile geliştirdim. C kullanarak küçük ölçekli bir kütüphane yönetim sistemi ve bir otel rezervasyon sistemi geliştirdim. Bu süreçte algoritma geliştirme, temel veri yapıları ve C sözdizimine hâkimiyet konularında pratik kazandım. Ayrıca Udemy eğitimleriyle bilgimi destekleyerek programlama mantığımı daha sağlam bir temele oturttum."
+      "description":"Üniversite eğitimim boyunca C programlama dili ile çalışarak yazılım temellerimi oluşturdum. Kütüphane yönetim sistemi gibi küçük ölçekli projeler geliştirerek algoritma, veri yapıları ve temel programlama konularında kendimi geliştirdim."
       },
       {"skillName":"Matlab/Simulink",
       "id":"6",
-      "description":"MATLAB ve Simulink’i üniversite eğitimim boyunca derslerimizde aktif olarak kullandım ve modelleme ile kontrol sistemleri analizinde deneyim kazandım. Özellikle sistem dinamiği, kontrol teorisi ve simülasyon çalışmalarında bu araçlarla yoğun şekilde çalıştım. Bitirme projem kapsamında Active Suspension sisteminin matematiksel modellemesini gerçekleştirdim ve kontrolcü tasarımını MATLAB/Simulink ortamında geliştirerek sistem performansını simülasyon üzerinden analiz ettim."
+      "description":"I used MATLAB and Simulink for system modeling and control analysis during my studies. In my graduation project, I modeled an active suspension system and designed its controller, analyzing system performance through simulations."
       }
 
         ],
@@ -80,62 +80,98 @@
       }
   },
   "projects":[
-      {"projectName":"Workintech",
+      {"projectName":"Modern E-Commerce Platformu",
       "id":"1",
-      "img":"/images/Rectangle1.png",
-      "description":"Kullanıcıların hangi çerezleri kabul edip hangilerini reddedeceklerini seçmelerine olanak tanıyan, basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisidir. Vanilla JavaScript, SCSS ve Parcel Bundler kullanılarak geliştirilmiştir. NPM paketi olarak kullanılabilir ve Git deposu sayesinde kodun ve temaların her türlü özelleştirilmesine imkân tanır.",
+      "img":"/images/eCommerce.png",
+      "description":"React ile geliştirilmiş, ölçeklenebilir mimariye sahip modern bir e-ticaret web uygulamasıdır. Projede dinamik ürün listeleme, React Router ile sayfalar arası gezinme ve Redux ile global state yönetimi uygulanmıştır. Backend ile iletişim API entegrasyonu üzerinden sağlanmış, kullanıcı arayüzü Tailwind CSS kullanılarak tamamen responsive şekilde tasarlanmıştır. Proje halen geliştirme aşamasında olup gerçek dünya senaryosuna yakın bir yapı sunmayı hedeflemektedir.",
       "tools":[
         {"tool":"react",
         "id":"1"},
         {"tool":"redux",
         "id":"2"},
         {"tool":"axios",
-        "id":"3"}
+        "id":"3"},
+        {"tool":"tailwind Css",
+        "id":"4"},
+        {"tool":"vite",
+        "id":"5"}
       ],
       "links":[
-        {"link":"GitHub",
-      "id":"1"}, 
-      {"link":"Siteye Git",
-      "id":"2"}
+        {"name":"GitHub",
+        "id":"1",
+        "link":"https://github.com/yusuf-kocabiyik/E-commerce-Website-React"}, 
+      {"name":"Siteye Git",
+      "id":"2", "link":"https://e-commerce-project-blush-three.vercel.app/"}
       ]
       },
 
-      {"projectName":"Random Jokes",
+      {"projectName":"Portföy",
       "id":"2",
-      "img":"/images/Rectangle2.png",
-      "description":"Kullanıcıların hangi çerezleri kabul edip hangilerini reddedeceklerini seçmelerine olanak tanıyan, basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisidir. Vanilla JavaScript, SCSS ve Parcel Bundler kullanılarak geliştirilmiştir. NPM paketi olarak kullanılabilir ve Git deposu sayesinde kodun ve temaların her türlü özelleştirilmesine imkân tanır.",
+      "img":"/images/portfolio.png",
+      "description":"React kullanılarak geliştirilen bu kişisel portföy sitesi, projeleri ve frontend becerilerini sergilemek amacıyla oluşturulmuş modern ve responsive bir tek sayfa uygulamasıdır (SPA). Tema değişimi ve dil seçimi gibi özellikler Context API ile global olarak yönetilmiş, API iletişimi Axios ile sağlanmıştır. Kullanıcı tercihleri LocalStorage ile saklanmış ve uygulama component tabanlı bir mimari ile geliştirilmiştir.",
       "tools":[
         {"tool":"react",
         "id":"1"},
-        {"tool":"redux",
+        {"tool":"context Api",
         "id":"2"},
         {"tool":"axios",
-        "id":"3"}
+        "id":"3"},
+        {"tool":"tailwind Css",
+        "id":"4"},
+        {"tool":"localStorage",
+        "id":"5"}
       ],
       "links":[
-        {"link":"GitHub",
-      "id":"1"}, 
-      {"link":"Siteye Git",
-      "id":"2"}
+        {"name":"GitHub",
+        "id":"1",
+        "link":"https://github.com/yusuf-kocabiyik/Personel-Website-React"}, 
+      {"name":"Siteye Git",
+      "id":"2", 
+      "link":"#"}
       ]
       },
-      {"projectName":"Journey",
+      {"projectName":"Pizza Sipariş Uygulaması",
       "id":"3",
-      "img":"/images/Rectangle3.png",
-      "description":"Kullanıcıların hangi çerezleri kabul edip hangilerini reddedeceklerini seçmelerine olanak tanıyan, basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisidir. Vanilla JavaScript, SCSS ve Parcel Bundler kullanılarak geliştirilmiştir. NPM paketi olarak kullanılabilir ve Git deposu sayesinde kodun ve temaların her türlü özelleştirilmesine imkân tanır.",
+      "img":"/images/orderPizza.png",
+      "description":"React kullanılarak geliştirilen bu pizza sipariş uygulaması, form yönetimi, doğrulama ve kullanıcı etkileşimine odaklanan bir tek sayfa uygulamasıdır (SPA). Projede dinamik form alanları, malzeme seçiminde kısıtlar ve gerçek zamanlı doğrulama mekanizmaları uygulanmıştır. Axios ile API isteği simüle edilerek sipariş gönderimi sağlanmış, sayfalar arası geçişler React Router ile gerçekleştirilmiştir. Cypress kullanılarak temel kullanıcı akışları test edilmiştir. Proje, component tabanlı yapı ve prop lifting ile veri akışının yönetimini göstermektedir.",
       "tools":[
         {"tool":"react",
         "id":"1"},
-        {"tool":"redux",
+        {"tool":"cypress",
         "id":"2"},
         {"tool":"axios",
+        "id":"3"},
+        {"tool":"css",
+        "id":"4"}
+      ],
+      "links":[
+       {"name":"GitHub",
+        "id":"1",
+        "link":"https://github.com/yusuf-kocabiyik/pizza-order-form-page-axios"}, 
+      {"name":"Siteye Git",
+      "id":"2", 
+      "link":"https://order-pizza-react.vercel.app/"}
+      ]
+      },
+      {"projectName":"Sipariş Uygulaması Arayüzü",
+      "id":"4",
+      "img":"/images/pizzaStatic.png",
+      "description":"HTML ve CSS kullanılarak, Figma tasarımına uygun şekilde geliştirilmiş statik bir pizza sipariş arayüzüdür. Bu projede JavaScript kullanılmadan, semantik HTML yapısı ve modern CSS teknikleri ile responsive bir tasarım oluşturulmuştur. Uygulama, mobil ve masaüstü ekranlar için uyumlu bir kullanıcı deneyimi sunacak şekilde geliştirilmiştir.",
+      "tools":[
+        {"tool":"HTML5",
+        "id":"1"},
+        {"tool":"CSS3",
+        "id":"2"},
+        {"tool":"Flexbox",
         "id":"3"}
       ],
       "links":[
-        {"link":"GitHub",
-      "id":"1"}, 
-      {"link":"Siteye Git",
-      "id":"2"}
+       {"name":"GitHub",
+        "id":"1",
+        "link":"https://github.com/yusuf-kocabiyik/Html-Css-Fastfood-Order-Website"}, 
+      {"name":"Siteye Git",
+      "id":"2", 
+      "link":"https://letscodeandorder.netlify.app/"}
       ]
       }
     ],"footer":{
@@ -181,29 +217,29 @@
     "skills":[
       {"skillName":"Java Script",
       "id":"1",
-      "description":"JavaScript is the core programming language used to build interactive and dynamic web applications.In my projects, I have used JavaScript to handle user interactions, manipulate the DOM, communicate with APIs, and write clean, maintainable code using modern ES6+ features.I have hands-on experience with asynchronous programming, event handling, and basic state management concepts."
+      "description":"JavaScript is my core language for building interactive web applications. I use it for DOM manipulation, API integration, and handling user interactions with modern ES6+ features."
       },
       {
         "skillName":"React.js",
         "id":"2",
-        "description":"React is a powerful JavaScript library that I use to build modern and scalable user interfaces.By leveraging functional components, hooks, and a component-based architecture, I create reusable and maintainable UI structures.In my projects, I have implemented routing with React Router and managed application state using Context API or other state management approaches."
+        "description":"I use React to build modern and scalable user interfaces. By working with functional components and hooks, I create reusable and maintainable structures. I have also implemented routing with React Router and managed application state using Context API, Redux."
       },
       {"skillName":"Java",
       "id":"3",
-      "description":"Java is a powerful, object-oriented programming language I use to build scalable and reliable backend applications. By applying OOP principles, I develop clean and maintainable code structures, implement RESTful services, and manage database integrations. With Spring Boot, I design modular and efficient backend services based on layered architecture principles."
+      "description":"I use Java and Spring Boot to build scalable backend applications. By applying object-oriented principles, I develop clean code structures, create RESTful services, and manage database integrations using layered architecture."
       },
         {
         "skillName":"Node.js",
         "id":"4",
-        "description":"Node.js enables server-side development using JavaScript to build fast and scalable backend applications.I have worked on creating RESTful APIs, handling database connections, and managing data flow between client and server using Node.js.I focus on building efficient and performance-oriented systems by leveraging its asynchronous, non-blocking architecture."
+        "description":"I use Node.js for server-side development to build fast and scalable applications. I have experience creating RESTful APIs, handling data flow between client and server, and working with asynchronous programming."
       },
       {"skillName":"C",
       "id":"5",
-      "description":"I actively worked with the C programming language throughout my university education and built my core programming foundation using C. I developed small-scale projects such as a library management system and a hotel reservation system. During this process, I improved my skills in algorithm development, basic data structures, and C syntax. I also strengthened my knowledge through Udemy courses to build a solid understanding of programming fundamentals."
+      "description":"I built my programming foundation using C during my university education. I developed small projects such as a library management system and improved my skills in algorithms, data structures, and core programming concepts."
       },
       {"skillName":"Matlab/Simulink",
       "id":"6",
-      "description":"I actively used MATLAB and Simulink throughout my university education, particularly in courses involving system dynamics, control theory, and simulation studies. I gained practical experience in modeling and control system analysis using these tools. For my graduation project, I developed the mathematical model of an active suspension system and designed its controller in the MATLAB/Simulink environment, analyzing system performance through simulations."
+      "description":"I used MATLAB and Simulink for system modeling and control analysis during my studies. In my graduation project, I modeled an active suspension system and designed its controller, analyzing system performance through simulations."
       }
         ],
     "profile": {
@@ -229,61 +265,97 @@
       }
     },
     "projects":[
-      {"projectName":"Workintech",
+      {"projectName":"Modern E-Commerce Platform",
       "id":"1",
-      "img":"/images/Rectangle1.png",
-      "description":"A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible",
+      "img":"/images/eCommerce.png",
+      "description":"A modern e-commerce web application built with React, focusing on scalable architecture and a smooth shopping experience. The project includes dynamic product listing, multi-page navigation with React Router, and global state management using Redux. Backend communication is handled via API integration, and the user interface is designed to be fully responsive using Tailwind CSS. This project is currently in progress and aims to simulate a real-world full-stack application.",
       "tools":[
         {"tool":"react",
         "id":"1"},
         {"tool":"redux",
         "id":"2"},
         {"tool":"axios",
-        "id":"3"}
+        "id":"3"},
+        {"tool":"tailwind Css",
+        "id":"4"},
+        {"tool":"vite",
+        "id":"5"}
       ],
       "links":[
-        {"link":"GitHub",
-      "id":"1"}, 
-      {"link":"Siteye Git",
-      "id":"2"}
+        {"name":"GitHub",
+        "id":"1",
+        "link":"https://github.com/yusuf-kocabiyik/E-commerce-Website-React"}, 
+      {"name":"Visit Website",
+      "id":"2", "link":"https://e-commerce-project-blush-three.vercel.app/"}
       ]
       },
-      {"projectName":"Workintech",
+      {"projectName":"Portfolio",
       "id":"2",
-      "img":"/images/Rectangle2.png",
-      "description":"A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible",
+      "img":"/images/portfolio.png",
+      "description":"A personal portfolio website built as a Single Page Application (SPA) using React. The project focuses on creating a clean, modern, and responsive user interface to showcase projects and frontend development skills. Global state management is handled using Context API for features such as theme switching and language selection. API communication is implemented with Axios, and user preferences are stored using LocalStorage. The application is designed with a component-based architecture and optimized for different screen sizes.",
       "tools":[
         {"tool":"react",
         "id":"1"},
-        {"tool":"redux",
+        {"tool":"context Api",
         "id":"2"},
         {"tool":"axios",
-        "id":"3"}
+        "id":"3"},
+        {"tool":"tailwind Css",
+        "id":"4"},
+        {"tool":"localStorage",
+        "id":"5"}
       ],
       "links":[
-        {"link":"GitHub",
-      "id":"1"}, 
-      {"link":"Siteye Git",
-      "id":"2"}
+        {"name":"GitHub",
+        "id":"1",
+        "link":"https://github.com/yusuf-kocabiyik/Personel-Website-React"}, 
+      {"name":"Visit Website",
+      "id":"2", 
+      "link":"#"}
       ]
       },
-      {"projectName":"Workintech",
+      {"projectName":"Pizza Ordering App ",
       "id":"3",
-      "img":"/images/Rectangle3.png",
-      "description":"A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible",
+      "img":"/images/orderPizza.png",
+      "description":"A pizza ordering web application built as a Single Page Application (SPA) using React. The project focuses on form handling, validation, and user interaction by creating a smooth ordering experience. It includes dynamic form inputs, ingredient selection with constraints, and real-time validation logic. API communication is handled using Axios to simulate order submission, and navigation between pages is implemented with React Router. End-to-end testing is performed using Cypress to validate core user flows. The project demonstrates component-based architecture and effective data flow using prop lifting.",
       "tools":[
         {"tool":"react",
         "id":"1"},
-        {"tool":"redux",
+        {"tool":"cypress",
         "id":"2"},
         {"tool":"axios",
+        "id":"3"},
+        {"tool":"css",
+        "id":"4"}
+      ],
+      "links":[
+       {"name":"GitHub",
+        "id":"1",
+        "link":"https://github.com/yusuf-kocabiyik/pizza-order-form-page-axios"}, 
+      {"name":"Visit Website",
+      "id":"2", 
+      "link":"https://order-pizza-react.vercel.app/"}
+      ]
+      },
+      {"projectName":"Order App UI",
+      "id":"4",
+      "img":"/images/pizzaStatic.png",
+      "description":"A static pizza ordering user interface built using HTML and CSS, based on a Figma design. The project focuses on creating a responsive and visually accurate layout without using JavaScript. It includes semantic HTML structure, modern CSS techniques, and a clean form design optimized for both mobile and desktop screens.",
+      "tools":[
+        {"tool":"HTML5",
+        "id":"1"},
+        {"tool":"CSS3",
+        "id":"2"},
+        {"tool":"Flexbox",
         "id":"3"}
       ],
       "links":[
-        {"link":"GitHub",
-      "id":"1"}, 
-      {"link":"Siteye Git",
-      "id":"2"}
+       {"name":"GitHub",
+        "id":"1",
+        "link":"https://github.com/yusuf-kocabiyik/Html-Css-Fastfood-Order-Website"}, 
+      {"name":"Siteye Git",
+      "id":"2", 
+      "link":"https://letscodeandorder.netlify.app/"}
       ]
       }
     ],
