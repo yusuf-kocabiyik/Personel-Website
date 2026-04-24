@@ -72,7 +72,7 @@
       },
       "role":{
         "roleChoice":"Tercih Ettiği Rol",
-        "role":"FullStack, UI"
+        "role":"FullStack"
       },
        "aboutMe":{
         "title":"Hakkımda",
@@ -257,7 +257,7 @@
       },
       "role":{
         "roleChoice":"Role Preferred",
-        "role":"FullStack, UI"
+        "role":"FullStack"
       },
       "aboutMe":{
         "title":"About Me",
