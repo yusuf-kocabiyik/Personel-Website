@@ -40,12 +40,12 @@
       },
       {"skillName":"Java",
       "id":"3",
-      "description":"Java ve Spring Boot ile ölçeklenebilir backend uygulamaları geliştiriyorum. Nesne yönelimli prensipleri kullanarak temiz kod yapıları oluşturur, RESTful servisler geliştirir ve katmanlı mimari ile veritabanı entegrasyonu sağlarım."
+      "description":"Java ile nesne yönelimli programlama prensiplerini kullanarak temiz, sürdürülebilir ve modüler kod yapıları geliştiriyorum. Veri yapıları, algoritmalar ve backend mantığı üzerine odaklanarak uygulama tasarımı konusunda sağlam bir temel oluşturdum.\n\nSpring Boot ile geliştirdiğim projelerde bu temeli kullanarak daha ölçeklenebilir sistemler oluşturuyorum."
       },
         {
-        "skillName":"Node.js",
+        "skillName":"Java & Spring Boot Ekosistemi",
         "id":"4",
-        "description":"Node.js ile hızlı ve ölçeklenebilir sunucu taraflı uygulamalar geliştiriyorum. RESTful API oluşturma, client-server veri akışı yönetimi ve asenkron programlama konularında deneyim sahibiyim."
+        "description":"Spring Boot ekosistemi ile Java bilgisini kullanarak ölçeklenebilir backend uygulamaları geliştiriyorum. RESTful API geliştirme için Spring Web, authentication ve yetkilendirme için Spring Security, veritabanı işlemleri için PostgreSQL ile birlikte Spring Data JPA kullanıyorum.\n\nSpring Boot Actuator ile uygulama sağlığını izliyor; katmanlı mimari, validation ve exception handling ile güvenilir sistemler geliştiriyorum. Ayrıca Docker ve Redis entegrasyonu üzerine kendimi geliştirmekteyim."
       },
       {"skillName":"C",
       "id":"5",
@@ -226,12 +226,12 @@
       },
       {"skillName":"Java",
       "id":"3",
-      "description":"I use Java and Spring Boot to build scalable backend applications. By applying object-oriented principles, I develop clean code structures, create RESTful services, and manage database integrations using layered architecture."
+      "description":"I use Java to build clean, maintainable, and modular applications by applying object-oriented programming principles. I focus on core backend logic, data structures, and application design. \n\nI leverage this foundation in my Spring Boot projects to develop more scalable and real-world backend systems."
       },
         {
-        "skillName":"Node.js",
+        "skillName":"Java & Spring Boot Ecosystem",
         "id":"4",
-        "description":"I use Node.js for server-side development to build fast and scalable applications. I have experience creating RESTful APIs, handling data flow between client and server, and working with asynchronous programming."
+        "description":"I use the Spring Boot ecosystem to build scalable backend applications on top of my Java foundation. I have experience with Spring Web for RESTful APIs, Spring Security for authentication and authorization, and Spring Data JPA with PostgreSQL for data persistence.\n\nI also use Spring Boot Actuator for monitoring and apply layered architecture, validation, and exception handling to build reliable systems. I am currently expanding my skills by integrating Docker and Redis."
       },
       {"skillName":"C",
       "id":"5",
